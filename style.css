@@ -1,2 +1,136 @@
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+body{
+ background-color: hsl(30, 54%, 90%);
+ font-family: 'outfits',sans-serif ;
+ 
+}
+.container{
+ position: relative;
+ background-color: hsl(0, 0%, 100%);
+ width: max-content;
+ margin: auto;
+ margin-top: 10%;
+ margin-bottom: 10%;
+ padding: 30px;
+ border-radius: 2%;
+ max-width: 600px;
+}
+img{
+ width: 100%;
+ border-radius: 2%;
+}
+.A1 h1{
+ font-family: 'Young Serif';
+ word-spacing: 50%;
+ font-size: 40px;
+ color: hsl(33, 10%, 18%);
+}
+.A1 p{
+ font-size: 16px;
+ color: hsl(30, 10%, 34%);
+ letter-spacing: -1px;
+ line-height: 25px;
+}
+.A2{
+ position: relative;
+ background-color: hsl(330, 100%, 98%);
+ width: 100%;
+ text-align: left;
+ /* padding-left: 3%;
+ padding-right: 3%; */
+ margin: auto;
+}
+.A2 ul li{
+ line-height: 30px;
+ font-weight: bold;
+ color:  hsl(30, 10%, 34%);
+}
+.A2 h3{
+ color:  hsl(332, 51%, 32%);
+}
+.A3{
+ line-height: 30px;
+ color: hsl(30, 10%, 34%);
+ text-align: left;
+}
+.A3 h2{
+ color:  hsl(14, 45%, 36%);
+ font-family: 'Young Serif';
+ font-size: 30px;
+}
+.A4{
+ line-height: 30px;
+ color:hsl(14, 45%, 36%);
+}
+.A4 h2{
+  font-family: 'Young Serif';
+  font-size: 30px; 
+}
+.A5 h2{
+  font-family: 'Young Serif';
+  color:hsl(14, 45%, 36%);
+  font-size: 30px;
+} 
+p{
+  color: hsl(30, 10%, 34%);
+}
+ol{
+ color: hsl(30, 10%, 34%);
+ line-height: 30px;
+}
+
+ li::marker{
+  color: brown;
+}
+
+/* table{
+ border-collapse: collapse;
+ width: 100%;
+} */
+
+.new-ul{
+ display: flex;
+ list-style-type: none;
+}
+
+.new-ul .first{
+ font-weight: bold;
+ color: grey;
+}
+
+.second{
+ margin-left: 34%;
+ color: brown;
+ font-weight: bold;
+}
+
+.third{
+ margin-left: 37%;
+ color: brown;
+ font-weight: bold;
+}
+
+.fourth{
+ margin-left: 35%;
+ color: brown;
+ font-weight: bold;
+}
+.fifth{
+ margin-left: 40%;
+ color: brown;
+ font-weight: bold;
+}
+/* media screen */
+@media screen and (max-width: 375px){
+  .container{
+   position: relative;
+   padding: 1rem;
+  }
+ }
+ @media screen and (max-width: 1440px){
+  .container{
+   position: relative;
+   padding: 1rem;
+  }
+ }
