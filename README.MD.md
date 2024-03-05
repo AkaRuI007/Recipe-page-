@@ -25,8 +25,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/AkaRuI007/Recipe-page-.git)
+- Live Site URL: (https://recipe-page-peach.vercel.app/)
 
 ## My process
 
@@ -37,7 +37,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### What I learned
 
-Ilearned some  
+Still need to understand some concepts about css.
 ### Continued development
 
 There is much work to be done.
